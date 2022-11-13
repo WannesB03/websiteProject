@@ -1,0 +1,472 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.topBar {
+    height: 100vh;
+    width: 100%;
+    background-image: url(/Project1/Project/img/photo-1478760329108-5c3ed9d495a0.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+.topBar nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: #4f4597;
+    transition: .4s;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+h4 {
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.me {
+    height: 60vh;
+    background-color: #003540;
+    text-align: right;
+    padding: 50px 50px;
+}
+
+.text { 
+    width: 850px;
+    padding-block-end: 10px;
+    text-align: center;
+    padding-left: 50px;
+}
+
+.text p {
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    
+}
+
+.text h2 {
+
+    color: white;
+    font-size: 45px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.cv {
+    background-color: #041319;
+    padding-right: 350px;
+    padding-top: 50px;
+    
+}
+
+.cv h4 {
+    color: rgb(255, 255, 255);
+    text-align: right;
+    padding-top: 50px;
+  
+}
+
+.pic img {
+    width: 450px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.cvpic {
+    height: 100vh;
+    background-color: #041319;
+    text-align: left;
+    padding: 50px 50px;
+}
+
+.cvpic img {
+    width: 1150px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    text-align: right;
+}
+
+.cvPage {
+    background-color: #003540;
+    text-align: right;
+    padding: 50px 50px;
+    height: 10vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    padding-right: 150px;
+}
+
+.cvPage a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.Hobby {
+    height: 60vh;
+    background-color: #003540;
+    text-align: left;
+    padding: 50px 50px;
+}
+
+.foto img {
+    width: 550px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    text-align: right;
+}
+
+.ervaring {
+    height: 60vh;
+    background-color: #041319;
+    text-align: left;
+    padding: 50px 50px;
+}
+
+.afbeelding img{
+    width: 550px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    text-align: right;
+}
+
+.contacts {
+    height: 60vh;
+    background-color: #003540;
+    text-align: left;
+    padding: 50px 50px;
+}
+
+.contacts img {
+    width: 550px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    text-align: right;
+}
+
+.divContact {
+    background-color: #003540;
+    text-align: right;
+    padding: 50px 50px;
+    height: 15vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    padding-right: 150px;
+}
+
+.divContact a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #003540;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+.divErvaring {
+    background-color: #003540;
+    text-align: right;
+    padding: 50px 50px;
+    height: 10vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    padding-right: 150px;
+}
+
+.divErvaring a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.ervaringComingsoon h1 {
+    background-color: #041319;
+    text-align: right;
+    padding: 50px 50px;
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    padding-right: 150px;
+    text-align: center;
+    
+}
+
+.divHobby {
+    background-color: #003540;
+    text-align: right;
+    padding: 50px 50px;
+    height: 20vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    padding-right: 150px;
+}
+
+.divHobby a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.HobbyI1 {
+    
+    height: 60vh;
+    background-color: #041319;
+    text-align: right;
+    padding: 50px 50px;
+}
+
+.HobbyI1 h3 {
+    color: white;
+    font-size: 45px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.HobbyI1 p {
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+.Gympic img {
+    width: 200px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    text-align: right;
+}
+
+.HobbyI2 {
+   
+    height: 60vh;
+    background-color: #003540;
+    text-align: right;
+    padding: 50px 50px;
+}
+
+.HobbyI2 h3 {
+    color: white;
+    font-size: 45px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.HobbyI2 p {
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.Icehockey img {
+    width: 450px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    text-align: left;
+}
+
+.HobbyI3 {
+   
+    height: 60vh;
+    background-color: #041319;
+    text-align: right;
+    padding: 50px 50px;
+}
+
+.HobbyI3 h3 {
+    color: white;
+    font-size: 45px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.HobbyI3 p {
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.Fitnesspic img {
+    width: 400px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    text-align: left;
+}
+
+.GamenI4 {
+   
+    height: 60vh;
+    background-color: #003540;
+    text-align: right;
+    padding: 50px 50px;
+}
+
+.GamenI4 h3 {
+    color: white;
+    font-size: 45px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.GamenI4 p {
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.gaming img {
+    width: 350px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    text-align: left;
+}
+

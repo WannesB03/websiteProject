@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="/Project1/Project/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/Project1/Project/CSS/style.css">
+</head>
+<style>
+  
+</style>
+
+
+<body>
+    <div class="divContact" >
+        <nav>
+            <ul>
+                <li><a href="/Project1/Project/Contacts.html">Contacts </a></li>
+                <li><a href="/Project1/Project/cv.html">CV</a></li>
+                <li><a href="/Project1/Project/Index.html">Homepagina</a></li>
+                <li><a href="/Project1/Project/ervaring.html">Ervaring</a></li>
+                <li><a href="/Project1/Project/Hobby.html">Hobby</a></li>
+            </ul>
+
+        </nav>
+    </div>
+
+
+    <div class="container">
+        <form action="/action_page.php">
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">Naam</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="jouw naam..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Achternaam</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="jouw achternaam..">
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="email">Email</label>
+            </div>
+            <div class="col-75">
+                <input type="email" name="email" id="email" placeholder="email..">
+                
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="country">Land</label>
+          </div>
+          <div class="col-75">
+            <select id="country" name="country">
+              <option value="australia">België</option>
+              <option value="canada">Nederland</option>
+              <option value="usa">Luxemburg</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">Onderwerp</label>
+          </div>
+          <div class="col-75">
+            <textarea id="subject" name="subject" placeholder="schrijf iets.." style="height:200px"></textarea>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <input type="submit" value="verzend">
+        </div>
+        </form>
+      </div>
+
+</body>
+
+</html>
